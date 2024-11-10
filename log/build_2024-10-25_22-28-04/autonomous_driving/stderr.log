@@ -1,0 +1,32 @@
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::Init(const rclcpp::Time&)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:143:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  143 | void AutonomousDriving::Init([01;35m[Kconst rclcpp::Time &current_time[m[K) {
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::splitLanePoints(const LanePointData&)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:191:33:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(geometry_msgs::msg::Point_<std::allocator<void> >::_x_type)point.geometry_msgs::msg::Point_<std::allocator<void> >::x[m[K’ from ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’} to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+  191 |         points.push_back({[01;35m[Kpoint.x[m[K, point.y});
+      |                           [01;35m[K~~~~~~^[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:191:33:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kpoint.geometry_msgs::msg::Point_<std::allocator<void> >::x[m[K’ from ‘[01m[Kconst _x_type[m[K’ {aka ‘[01m[Kconst double[m[K’} to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:191:42:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(geometry_msgs::msg::Point_<std::allocator<void> >::_y_type)point.geometry_msgs::msg::Point_<std::allocator<void> >::y[m[K’ from ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_y_type[m[K’ {aka ‘[01m[Kdouble[m[K’} to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+  191 |         points.push_back({point.x, [01;35m[Kpoint.y[m[K});
+      |                                    [01;35m[K~~~~~~^[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:191:42:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[Kpoint.geometry_msgs::msg::Point_<std::allocator<void> >::y[m[K’ from ‘[01m[Kconst _y_type[m[K’ {aka ‘[01m[Kconst double[m[K’} to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:199:5:[m[K [01;31m[Kerror: [m[K‘[01m[KDBSCAN[m[K’ was not declared in this scope
+  199 |     [01;31m[KDBSCAN[m[K dbscan(epsilon, min_samples);
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:200:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kdbscan[m[K’ was not declared in this scope
+  200 |     std::vector<int> labels = [01;31m[Kdbscan[m[K.fit_predict(points);
+      |                               [01;31m[K^~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:195:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kepsilon[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  195 |     float [01;35m[Kepsilon[m[K = 1.5;  // 밀집 기준 거리
+      |           [01;35m[K^~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:196:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmin_samples[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  196 |     int [01;35m[Kmin_samples[m[K = 3;  // 최소 포인트 개수
+      |         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::Publish(const rclcpp::Time&)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:574:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  574 | void AutonomousDriving::Publish([01;35m[Kconst rclcpp::Time &current_time[m[K) {
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/autonomous_driving.dir/build.make:76: CMakeFiles/autonomous_driving.dir/src/autonomous_driving.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/autonomous_driving.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

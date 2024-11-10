@@ -1,0 +1,11 @@
+[0.032s] Invoking command in '/home/seok/automotive_software_mid-term/build/autonomous_driving': CMAKE_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:/home/seok/automotive_software_mid-term/install/simulator:/home/seok/automotive_software_mid-term/install/scenario_runner:/home/seok/automotive_software_mid-term/install/evaluation:/home/seok/automotive_software_mid-term/install/autonomous_driving:/home/seok/ros2_ws/install/simulator:/home/seok/ros2_ws/install/evaluation:/home/seok/ros2_ws/install/autonomous_driving:/home/seok/ros2_ws/install/ad_msgs:/opt/ros/humble /usr/bin/cmake --build /home/seok/automotive_software_mid-term/build/autonomous_driving -- -j16 -l16
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target autonomous_driving[0m
+[0.076s] [ 50%] [32mBuilding CXX object CMakeFiles/autonomous_driving.dir/src/autonomous_driving.cpp.o[0m
+[0.539s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Ksklearn/DBSCAN: No such file or directory
+[0.539s]    19 | #include [01;31m[K<sklearn/DBSCAN>[m[K // 사용할 DBSCAN 라이브러리 필요
+[0.539s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[0.539s] compilation terminated.
+[0.542s] gmake[2]: *** [CMakeFiles/autonomous_driving.dir/build.make:76: CMakeFiles/autonomous_driving.dir/src/autonomous_driving.cpp.o] Error 1
+[0.542s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/autonomous_driving.dir/all] Error 2
+[0.542s] gmake: *** [Makefile:146: all] Error 2
+[0.544s] Invoked command in '/home/seok/automotive_software_mid-term/build/autonomous_driving' returned '2': CMAKE_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:/home/seok/automotive_software_mid-term/install/simulator:/home/seok/automotive_software_mid-term/install/scenario_runner:/home/seok/automotive_software_mid-term/install/evaluation:/home/seok/automotive_software_mid-term/install/autonomous_driving:/home/seok/ros2_ws/install/simulator:/home/seok/ros2_ws/install/evaluation:/home/seok/ros2_ws/install/autonomous_driving:/home/seok/ros2_ws/install/ad_msgs:/opt/ros/humble /usr/bin/cmake --build /home/seok/automotive_software_mid-term/build/autonomous_driving -- -j16 -l16

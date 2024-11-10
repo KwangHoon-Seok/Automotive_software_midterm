@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target autonomous_driving[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/autonomous_driving.dir/src/autonomous_driving.cpp.o[0m
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::Init(const rclcpp::Time&)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:138:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  138 | void AutonomousDriving::Init([01;35m[Kconst rclcpp::Time &current_time[m[K) {
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K At global scope:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:158:14:[m[K [01;31m[Kerror: [m[Kdefault argument given for parameter 2 of ‘[01m[KPointCluster AutonomousDriving::cluster_lane__points(const std::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > >&, int)[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  158 | PointCluster [01;31m[KAutonomousDriving[m[K::cluster_lane__points(const std::vector<geometry_msgs::msg::Point>& points, int k =2)
+      |              [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:17[m[K:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/include/autonomous_driving.hpp:72:22:[m[K [01;36m[Knote: [m[Kprevious specification in ‘[01m[KPointCluster AutonomousDriving::cluster_lane__points(const std::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > >&, int)[m[K’ here
+   72 |         PointCluster [01;36m[Kcluster_lane__points[m[K(const std::vector<geometry_msgs::msg::Point>& points, int k =2);
+      |                      [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[KPointCluster AutonomousDriving::cluster_lane__points(const std::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > >&, int)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:215:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kclusters[m[K’ was not declared in this scope
+  215 |     if (![01;31m[Kclusters[m[K[0].empty() && !clusters[1].empty()) {
+      |          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::Publish(const rclcpp::Time&)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:521:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  521 | void AutonomousDriving::Publish([01;35m[Kconst rclcpp::Time &current_time[m[K) {
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/autonomous_driving.dir/build.make:76: CMakeFiles/autonomous_driving.dir/src/autonomous_driving.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/autonomous_driving.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

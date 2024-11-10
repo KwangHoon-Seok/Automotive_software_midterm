@@ -1,0 +1,61 @@
+[35m[1mConsolidate compiler generated dependencies of target autonomous_driving[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/autonomous_driving.dir/src/autonomous_driving.cpp.o[0m
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::Init(const rclcpp::Time&)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:146:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  146 | void AutonomousDriving::Init([01;35m[Kconst rclcpp::Time &current_time[m[K) {
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kbool AutonomousDriving::isCurveAhead(double)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:707:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kd[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  707 |     double [01;35m[Kd[m[K = A_MID(0); // 0차 항 계수
+      |            [01;35m[K^[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::Run(const rclcpp::Time&)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:867:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_distance[m[K’ was not declared in this scope; did you mean ‘[01m[KAEB_distance[m[K’?
+  867 |                 [01;31m[Ktarget_distance[m[K = 18;
+      |                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                 [32m[KAEB_distance[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:868:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_speed[m[K’ was not declared in this scope
+  868 |                 [01;31m[Ktarget_speed[m[K = 40/3.6;  // 커브일 경우 target_distance를 20으로 설정
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:871:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_distance[m[K’ was not declared in this scope; did you mean ‘[01m[KAEB_distance[m[K’?
+  871 |                 [01;31m[Ktarget_distance[m[K = 10;
+      |                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                 [32m[KAEB_distance[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:872:17:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_speed[m[K’ was not declared in this scope
+  872 |                 [01;31m[Ktarget_speed[m[K = 50/3.6;
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:879:49:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_speed[m[K’ was not declared in this scope
+  879 |                     control_signal = computePID([01;31m[Ktarget_speed[m[K, vehicle_state.velocity, current_time, 0.25);
+      |                                                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:882:53:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_distance[m[K’ was not declared in this scope; did you mean ‘[01m[KAEB_distance[m[K’?
+  882 |                     control_signal = computePID_ACC([01;31m[Ktarget_distance[m[K, closest_obstacle_distance, current_time, 0.03);
+      |                                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                                     [32m[KAEB_distance[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/include/autonomous_driving.hpp:31[m[K,
+                 from [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:17[m[K:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:932:60:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_distance[m[K’ was not declared in this scope; did you mean ‘[01m[KAEB_distance[m[K’?
+  932 |     RCLCPP_INFO(this->get_logger(), "target_distance: %f", [01;31m[Ktarget_distance[m[K);
+      |                                                            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:934:59:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_distance[m[K’ was not declared in this scope; did you mean ‘[01m[KAEB_distance[m[K’?
+  934 |     RCLCPP_INFO(this->get_logger(), "Distance_error: %f", [01;31m[Ktarget_distance[m[K-closest_obstacle_distance);
+      |                                                           [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:751:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klimit_speed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  751 |     double [01;35m[Klimit_speed[m[K = i_limit_speed_;
+      |            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::Publish(const rclcpp::Time&, const MarkerArray&)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:938:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  938 | void AutonomousDriving::Publish([01;35m[Kconst rclcpp::Time &current_time[m[K, const visualization_msgs::msg::MarkerArray& cluster_markers) {
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/autonomous_driving.dir/build.make:76: CMakeFiles/autonomous_driving.dir/src/autonomous_driving.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/autonomous_driving.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

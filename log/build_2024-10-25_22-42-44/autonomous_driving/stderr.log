@@ -1,0 +1,63 @@
+In file included from [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:17[m[K:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/include/autonomous_driving.hpp:112:40:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ was not declared in this scope; did you mean ‘[01m[Kgeometry_msgs::msg::Point[m[K’?
+  112 |         void expandCluster(std::vector<[01;31m[KPoint[m[K>& points, int pointIdx, int clusterID, float epsilon, int min_samples);
+      |                                        [01;31m[K^~~~~[m[K
+      |                                        [32m[Kgeometry_msgs::msg::Point[m[K
+In file included from [01m[K/home/seok/automotive_software_mid-term/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data__struct.hpp:20[m[K,
+                 from [01m[K/home/seok/automotive_software_mid-term/install/ad_msgs/include/ad_msgs/ad_msgs/msg/detail/lane_point_data_array__struct.hpp:20[m[K,
+                 from [01m[K/home/seok/automotive_software_mid-term/install/ad_msgs/include/ad_msgs/ad_msgs/msg/lane_point_data_array.hpp:7[m[K,
+                 from [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/include/autonomous_driving.hpp:36[m[K,
+                 from [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:17[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:150:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::Point[m[K’ declared here
+  150 | using [01;36m[KPoint[m[K =
+      |       [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:17[m[K:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/include/autonomous_driving.hpp:112:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  112 |         void expandCluster(std::vector<Point[01;31m[K>[m[K& points, int pointIdx, int clusterID, float epsilon, int min_samples);
+      |                                             [01;31m[K^[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/include/autonomous_driving.hpp:112:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::Init(const rclcpp::Time&)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:144:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  144 | void AutonomousDriving::Init([01;35m[Kconst rclcpp::Time &current_time[m[K) {
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K At global scope:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:203:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid AutonomousDriving::expandCluster(std::vector<Point>&, int, int, float, int)[m[K’
+  203 | void [01;31m[KAutonomousDriving[m[K::expandCluster(std::vector<Point>& points, int pointIdx, int clusterID, float epsilon, int min_samples) {
+      |      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:17[m[K:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/include/autonomous_driving.hpp:112:14:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid AutonomousDriving::expandCluster(int&, int, int, float, int)[m[K’
+  112 |         void [01;36m[KexpandCluster[m[K(std::vector<Point>& points, int pointIdx, int clusterID, float epsilon, int min_samples);
+      |              [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:17[m[K:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/include/autonomous_driving.hpp:50:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass AutonomousDriving[m[K’ defined here
+   50 | class [01;36m[KAutonomousDriving[m[K : public rclcpp::Node {
+      |       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::splitLanePoints(const LanePointData&)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:232:33:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(geometry_msgs::msg::Point_<std::allocator<void> >::_x_type)point.geometry_msgs::msg::Point_<std::allocator<void> >::x[m[K’ from ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’} to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+  232 |         points.push_back({[01;35m[Kpoint.x[m[K, point.y, point.z});
+      |                           [01;35m[K~~~~~~^[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:232:42:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(geometry_msgs::msg::Point_<std::allocator<void> >::_y_type)point.geometry_msgs::msg::Point_<std::allocator<void> >::y[m[K’ from ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_y_type[m[K’ {aka ‘[01m[Kdouble[m[K’} to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+  232 |         points.push_back({point.x, [01;35m[Kpoint.y[m[K, point.z});
+      |                                    [01;35m[K~~~~~~^[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:232:51:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of ‘[01m[K(geometry_msgs::msg::Point_<std::allocator<void> >::_z_type)point.geometry_msgs::msg::Point_<std::allocator<void> >::z[m[K’ from ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_z_type[m[K’ {aka ‘[01m[Kdouble[m[K’} to ‘[01m[Kfloat[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wnarrowing-Wnarrowing]8;;[m[K]
+  232 |         points.push_back({point.x, point.y, [01;35m[Kpoint.z[m[K});
+      |                                             [01;35m[K~~~~~~^[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:240:52:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  240 |         if ([01;35m[KregionQuery(points, i, epsilon).size() >= min_samples[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:241:27:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<Point>[m[K’ to ‘[01m[Kint&[m[K’
+  241 |             expandCluster([01;31m[Kpoints[m[K, i, clusterID, epsilon, min_samples);
+      |                           [01;31m[K^~~~~~[m[K
+      |                           [01;31m[K|[m[K
+      |                           [01;31m[Kstd::vector<Point>[m[K
+In file included from [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:17[m[K:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/include/autonomous_driving.hpp:112:48:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid AutonomousDriving::expandCluster(int&, int, int, float, int)[m[K’
+  112 |         void expandCluster([01;36m[Kstd::vector<Point>& points[m[K, int pointIdx, int clusterID, float epsilon, int min_samples);
+      |                            [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::Publish(const rclcpp::Time&)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:607:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  607 | void AutonomousDriving::Publish([01;35m[Kconst rclcpp::Time &current_time[m[K) {
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/autonomous_driving.dir/build.make:76: CMakeFiles/autonomous_driving.dir/src/autonomous_driving.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/autonomous_driving.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

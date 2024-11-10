@@ -1,0 +1,47 @@
+[0.025s] Invoking command in '/home/seok/automotive_software_mid-term/build/autonomous_driving': CMAKE_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:/home/seok/automotive_software_mid-term/install/simulator:/home/seok/automotive_software_mid-term/install/scenario_runner:/home/seok/automotive_software_mid-term/install/evaluation:/home/seok/automotive_software_mid-term/install/autonomous_driving:/home/seok/ros2_ws/install/simulator:/home/seok/ros2_ws/install/evaluation:/home/seok/ros2_ws/install/autonomous_driving:/home/seok/ros2_ws/install/ad_msgs:/opt/ros/humble /usr/bin/cmake --build /home/seok/automotive_software_mid-term/build/autonomous_driving -- -j16 -l16
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target autonomous_driving[0m
+[0.064s] [ 50%] [32mBuilding CXX object CMakeFiles/autonomous_driving.dir/src/autonomous_driving.cpp.o[0m
+[1.848s] In file included from [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:17[m[K:
+[1.848s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/include/autonomous_driving.hpp:65:14:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KAutonomousDriving::[m[K’ on member ‘[01m[Kprocess_lanes[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.848s]    65 |         void [01;31m[KAutonomousDriving[m[K::process_lanes(const ad_msgs::msg::LanePointData::SharedPtr lane_points_)
+[1.848s]       |              [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.848s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/include/autonomous_driving.hpp:65:104:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.848s]    65 |         void AutonomousDriving::process_lanes(const ad_msgs::msg::LanePointData::SharedPtr lane_points_[01;31m[K)[m[K
+[1.848s]       |                                                                                                        [01;31m[K^[m[K
+[1.848s]       |                                                                                                         [32m[K;[m[K
+[2.050s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::Init(const rclcpp::Time&)[m[K’:
+[2.050s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:135:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.050s]   135 | void AutonomousDriving::Init([01;35m[Kconst rclcpp::Time &current_time[m[K) {
+[2.050s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[2.081s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::process_lanes(ad_msgs::msg::LanePointData_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.081s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:158:10:[m[K [01;31m[Kerror: [m[K‘[01m[Krandom_device[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[2.082s]   158 |     std::[01;31m[Krandom_device[m[K rd;
+[2.082s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[2.083s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:159:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kmt19937[m[K’ is not a member of ‘[01m[Kstd[m[K’
+[2.083s]   159 |     std::[01;31m[Kmt19937[m[K gen(rd());
+[2.083s]       |          [01;31m[K^~~~~~~[m[K
+[2.088s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:167:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kgen[m[K’ was not declared in this scope
+[2.088s]   167 |             random_points.push_back(lane_points_->point[dis([01;31m[Kgen[m[K)]);
+[2.088s]       |                                                             [01;31m[K^~~[m[K
+[2.093s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:186:33:[m[K [01;31m[Kerror: [m[K‘[01m[Klane_points[m[K’ was not declared in this scope; did you mean ‘[01m[Klane_points_[m[K’?
+[2.093s]   186 |         for(const auto& point : [01;31m[Klane_points[m[K->point)
+[2.093s]       |                                 [01;31m[K^~~~~~~~~~~[m[K
+[2.093s]       |                                 [32m[Klane_points_[m[K
+[2.094s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:205:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.094s]   205 |         if ([01;35m[Kleft_count > left_lane_points.size()[m[K)
+[2.094s]       |             [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.094s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:209:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.094s]   209 |         if ([01;35m[Kright_count > right_lane_points.size()[m[K)
+[2.094s]       |             [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.096s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::Run(const rclcpp::Time&)[m[K’:
+[2.096s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:258:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klimit_speed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.096s]   258 |     double [01;35m[Klimit_speed[m[K = i_limit_speed_;
+[2.096s]       |            [01;35m[K^~~~~~~~~~~[m[K
+[2.097s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::Publish(const rclcpp::Time&)[m[K’:
+[2.097s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:322:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.097s]   322 | void AutonomousDriving::Publish([01;35m[Kconst rclcpp::Time &current_time[m[K) {
+[2.097s]       |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[13.995s] gmake[2]: *** [CMakeFiles/autonomous_driving.dir/build.make:76: CMakeFiles/autonomous_driving.dir/src/autonomous_driving.cpp.o] Error 1
+[13.996s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/autonomous_driving.dir/all] Error 2
+[13.996s] gmake: *** [Makefile:146: all] Error 2
+[13.997s] Invoked command in '/home/seok/automotive_software_mid-term/build/autonomous_driving' returned '2': CMAKE_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:/home/seok/automotive_software_mid-term/install/simulator:/home/seok/automotive_software_mid-term/install/scenario_runner:/home/seok/automotive_software_mid-term/install/evaluation:/home/seok/automotive_software_mid-term/install/autonomous_driving:/home/seok/ros2_ws/install/simulator:/home/seok/ros2_ws/install/evaluation:/home/seok/ros2_ws/install/autonomous_driving:/home/seok/ros2_ws/install/ad_msgs:/opt/ros/humble /usr/bin/cmake --build /home/seok/automotive_software_mid-term/build/autonomous_driving -- -j16 -l16

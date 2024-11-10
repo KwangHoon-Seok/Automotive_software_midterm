@@ -1,0 +1,45 @@
+[35m[1mConsolidate compiler generated dependencies of target autonomous_driving[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/autonomous_driving.dir/src/autonomous_driving.cpp.o[0m
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::Init(const rclcpp::Time&)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:138:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  138 | void AutonomousDriving::Init([01;35m[Kconst rclcpp::Time &current_time[m[K) {
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K At global scope:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:144:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kdouble AutonomousDriving::computePID(double, double, const rclcpp::Time&, double)[m[K’
+  144 | double [01;31m[KAutonomousDriving[m[K::computePID(double target_speed, double current_speed, const rclcpp::Time& current_time, double kp)
+      |        [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:17[m[K:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/include/autonomous_driving.hpp:108:16:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kdouble AutonomousDriving::computePID(double, double, const rclcpp::Time&)[m[K’
+  108 |         double [01;36m[KcomputePID[m[K(double target_speed, double current_speed, const rclcpp::Time& current_time);
+      |                [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:17[m[K:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/include/autonomous_driving.hpp:50:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass AutonomousDriving[m[K’ defined here
+   50 | class [01;36m[KAutonomousDriving[m[K : public rclcpp::Node {
+      |       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::Run(const rclcpp::Time&)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:471:36:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KAutonomousDriving::computePID(double&, ad_msgs::msg::VehicleOutput_<std::allocator<void> >::_velocity_type&, const rclcpp::Time&, int)[m[K’
+  471 |         control_signal = [01;31m[KcomputePID(target_speed, vehicle_state.velocity, current_time,1)[m[K;
+      |                          [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:17[m[K:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/include/autonomous_driving.hpp:108:16:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdouble AutonomousDriving::computePID(double, double, const rclcpp::Time&)[m[K’
+  108 |         double [01;36m[KcomputePID[m[K(double target_speed, double current_speed, const rclcpp::Time& current_time);
+      |                [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/include/autonomous_driving.hpp:108:16:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:473:36:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KAutonomousDriving::computePID(double&, double&, const rclcpp::Time&, double)[m[K’
+  473 |         control_signal = [01;31m[KcomputePID(target_distance, closest_obstacle_distance, current_time,0.5)[m[K;
+      |                          [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:17[m[K:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/include/autonomous_driving.hpp:108:16:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdouble AutonomousDriving::computePID(double, double, const rclcpp::Time&)[m[K’
+  108 |         double [01;36m[KcomputePID[m[K(double target_speed, double current_speed, const rclcpp::Time& current_time);
+      |                [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/include/autonomous_driving.hpp:108:16:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:449:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klimit_speed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  449 |     double [01;35m[Klimit_speed[m[K = i_limit_speed_;
+      |            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::Publish(const rclcpp::Time&)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:559:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  559 | void AutonomousDriving::Publish([01;35m[Kconst rclcpp::Time &current_time[m[K) {
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/autonomous_driving.dir/build.make:76: CMakeFiles/autonomous_driving.dir/src/autonomous_driving.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/autonomous_driving.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

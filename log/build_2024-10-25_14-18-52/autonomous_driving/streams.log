@@ -1,0 +1,35 @@
+[0.024s] Invoking command in '/home/seok/automotive_software_mid-term/build/autonomous_driving': CMAKE_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:/home/seok/automotive_software_mid-term/install/simulator:/home/seok/automotive_software_mid-term/install/scenario_runner:/home/seok/automotive_software_mid-term/install/evaluation:/home/seok/automotive_software_mid-term/install/autonomous_driving:/home/seok/ros2_ws/install/simulator:/home/seok/ros2_ws/install/evaluation:/home/seok/ros2_ws/install/autonomous_driving:/home/seok/ros2_ws/install/ad_msgs:/opt/ros/humble /usr/bin/cmake --build /home/seok/automotive_software_mid-term/build/autonomous_driving -- -j16 -l16
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target autonomous_driving[0m
+[0.068s] [ 50%] [32mBuilding CXX object CMakeFiles/autonomous_driving.dir/src/autonomous_driving.cpp.o[0m
+[2.273s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::Init(const rclcpp::Time&)[m[K’:
+[2.273s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:136:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.273s]   136 | void AutonomousDriving::Init([01;35m[Kconst rclcpp::Time &current_time[m[K) {
+[2.273s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[2.317s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::PurePursuit()[m[K’:
+[2.318s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:319:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kg_y[m[K’ was not declared in this scope
+[2.318s]   319 |     [01;31m[Kg_y[m[K = mid_lane(3) * std::pow(g_x, 3) + mid_lane(2) * std::pow(g_x, 2) + mid_lane(1) * g_x + mid_lane(0);
+[2.318s]       |     [01;31m[K^~~[m[K
+[2.322s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:319:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kg_x[m[K’ was not declared in this scope
+[2.322s]   319 |     g_y = mid_lane(3) * std::pow([01;31m[Kg_x[m[K, 3) + mid_lane(2) * std::pow(g_x, 2) + mid_lane(1) * g_x + mid_lane(0);
+[2.322s]       |                                  [01;31m[K^~~[m[K
+[2.326s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:320:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kl_d[m[K’ was not declared in this scope
+[2.327s]   320 |     [01;31m[Kl_d[m[K = std::sqrt(std::pow(g_x, 2) + std::pow(g_y, 2));
+[2.327s]       |     [01;31m[K^~~[m[K
+[2.330s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:321:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ke_ld[m[K’ was not declared in this scope
+[2.330s]   321 |     [01;31m[Ke_ld[m[K = g_y;
+[2.330s]       |     [01;31m[K^~~~[m[K
+[2.334s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:322:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kyaw[m[K’ was not declared in this scope
+[2.334s]   322 |     [01;31m[Kyaw[m[K = std::atan2(2 * g_x * g_y , std::pow(l_d, 2));
+[2.334s]       |     [01;31m[K^~~[m[K
+[2.334s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::Run(const rclcpp::Time&)[m[K’:
+[2.334s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:341:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klimit_speed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.334s]   341 |     double [01;35m[Klimit_speed[m[K = i_limit_speed_;
+[2.334s]       |            [01;35m[K^~~~~~~~~~~[m[K
+[2.335s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::Publish(const rclcpp::Time&)[m[K’:
+[2.335s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:405:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.335s]   405 | void AutonomousDriving::Publish([01;35m[Kconst rclcpp::Time &current_time[m[K) {
+[2.335s]       |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[15.821s] gmake[2]: *** [CMakeFiles/autonomous_driving.dir/build.make:76: CMakeFiles/autonomous_driving.dir/src/autonomous_driving.cpp.o] Error 1
+[15.822s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/autonomous_driving.dir/all] Error 2
+[15.822s] gmake: *** [Makefile:146: all] Error 2
+[15.824s] Invoked command in '/home/seok/automotive_software_mid-term/build/autonomous_driving' returned '2': CMAKE_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:/home/seok/automotive_software_mid-term/install/simulator:/home/seok/automotive_software_mid-term/install/scenario_runner:/home/seok/automotive_software_mid-term/install/evaluation:/home/seok/automotive_software_mid-term/install/autonomous_driving:/home/seok/ros2_ws/install/simulator:/home/seok/ros2_ws/install/evaluation:/home/seok/ros2_ws/install/autonomous_driving:/home/seok/ros2_ws/install/ad_msgs:/opt/ros/humble /usr/bin/cmake --build /home/seok/automotive_software_mid-term/build/autonomous_driving -- -j16 -l16

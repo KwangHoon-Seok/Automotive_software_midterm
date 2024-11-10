@@ -1,0 +1,15 @@
+[01m[K/home/seok/automotive_software_mid-term/src/bsw/system/interface/interface_lane.cpp:[m[K In member function ‘[01m[Kbool SLanes::ImportLaneCsvFile(std::string)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/bsw/system/interface/interface_lane.cpp:26:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KnLaneID[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   26 |     int [01;35m[KnLaneID[m[K = 0;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/scenario_runner/src/scenario_algorithm.cpp:[m[K In member function ‘[01m[Kvoid ScenarioAlgorithm::GenerateObstacles()[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/scenario_runner/src/scenario_algorithm.cpp:79:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<interface::RefLanePoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   79 |         for (int j=0; [01;35m[Kj<obstacle_ref_lanes_.lanes[i].points.size()[m[K; j++) {
+      |                       [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/scenario_runner/src/scenario_algorithm.cpp:[m[K In member function ‘[01m[Kvoid ScenarioAlgorithm::UpdateObstacleState(double)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/scenario_runner/src/scenario_algorithm.cpp:148:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<interface::ObstacleState>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  148 |         for (int i=0; [01;35m[Ki<obstacle_states_.size()[m[K; i++) {
+      |                       [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/scenario_runner/src/scenario_algorithm.cpp:151:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::pair<double, double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  151 |             for(int k=0; [01;35m[Kk<object_target_speed_.size()[m[K; k++) {
+      |                          [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

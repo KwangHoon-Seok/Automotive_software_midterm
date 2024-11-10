@@ -1,0 +1,109 @@
+[0.032s] Invoking command in '/home/seok/automotive_software_mid-term/build/evaluation': AMENT_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:/home/seok/ros2_ws/install/simulator:/home/seok/ros2_ws/install/evaluation:/home/seok/ros2_ws/install/autonomous_driving:/home/seok/ros2_ws/install/ad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/seok/automotive_software_mid-term/install/ad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/seok/automotive_software_mid-term/src/app/evaluation -DCMAKE_INSTALL_PREFIX=/home/seok/automotive_software_mid-term/install/evaluation
+[0.089s] -- The C compiler identification is GNU 11.4.0
+[0.227s] -- The CXX compiler identification is GNU 11.4.0
+[0.291s] -- Detecting C compiler ABI info
+[0.348s] -- Detecting C compiler ABI info - done
+[0.352s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.353s] -- Detecting C compile features
+[0.353s] -- Detecting C compile features - done
+[0.355s] -- Detecting CXX compiler ABI info
+[0.433s] -- Detecting CXX compiler ABI info - done
+[0.438s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.438s] -- Detecting CXX compile features
+[0.438s] -- Detecting CXX compile features - done
+[0.440s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.552s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.618s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.674s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.677s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.681s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.688s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.698s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.745s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.749s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.005s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.277s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.837s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.841s] -- Looking for pthread.h
+[1.893s] -- Looking for pthread.h - found
+[1.893s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.946s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.947s] -- Found Threads: TRUE  
+[1.978s] -- Found ad_msgs: 0.0.0 (/home/seok/automotive_software_mid-term/install/ad_msgs/share/ad_msgs/cmake)
+[2.034s] -- Found rviz_2d_overlay_msgs: 1.3.0 (/opt/ros/humble/share/rviz_2d_overlay_msgs/cmake)
+[2.042s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[2.050s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.120s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.138s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.139s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.139s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.147s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem 
+[2.225s] -- Configuring done
+[2.242s] -- Generating done
+[2.244s] -- Build files have been written to: /home/seok/automotive_software_mid-term/build/evaluation
+[2.256s] Invoked command in '/home/seok/automotive_software_mid-term/build/evaluation' returned '0': AMENT_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:/home/seok/ros2_ws/install/simulator:/home/seok/ros2_ws/install/evaluation:/home/seok/ros2_ws/install/autonomous_driving:/home/seok/ros2_ws/install/ad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/seok/automotive_software_mid-term/install/ad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/seok/automotive_software_mid-term/src/app/evaluation -DCMAKE_INSTALL_PREFIX=/home/seok/automotive_software_mid-term/install/evaluation
+[2.257s] Invoking command in '/home/seok/automotive_software_mid-term/build/evaluation': AMENT_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:/home/seok/ros2_ws/install/simulator:/home/seok/ros2_ws/install/evaluation:/home/seok/ros2_ws/install/autonomous_driving:/home/seok/ros2_ws/install/ad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/seok/automotive_software_mid-term/install/ad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/seok/automotive_software_mid-term/build/evaluation -- -j16 -l16
+[2.301s] [ 25%] [32mBuilding CXX object CMakeFiles/evaluation.dir/home/seok/automotive_software_mid-term/src/bsw/system/interface/interface_lane.cpp.o[0m
+[2.303s] [ 75%] [32mBuilding CXX object CMakeFiles/evaluation.dir/src/evaluation_node.cpp.o[0m
+[2.303s] [ 75%] [32mBuilding CXX object CMakeFiles/evaluation.dir/src/evaluation_algorithm.cpp.o[0m
+[3.302s] [01m[K/home/seok/automotive_software_mid-term/src/bsw/system/interface/interface_lane.cpp:[m[K In member function ‘[01m[Kbool SLanes::ImportLaneCsvFile(std::string)[m[K’:
+[3.303s] [01m[K/home/seok/automotive_software_mid-term/src/bsw/system/interface/interface_lane.cpp:26:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KnLaneID[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.303s]    26 |     int [01;35m[KnLaneID[m[K = 0;
+[3.303s]       |         [01;35m[K^~~~~~~[m[K
+[3.365s] [01m[K/home/seok/automotive_software_mid-term/src/app/evaluation/src/evaluation_algorithm.cpp:[m[K In member function ‘[01m[Kvoid EvaluationAlgorithm::LoadLaneData()[m[K’:
+[3.365s] [01m[K/home/seok/automotive_software_mid-term/src/app/evaluation/src/evaluation_algorithm.cpp:27:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<SLane>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.365s]    27 |     for (auto i_lane = 0; [01;35m[Ki_lane < ref_csv_lane.m_vecLanes.size()[m[K; i_lane++) {
+[3.366s]       |                           [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.366s] [01m[K/home/seok/automotive_software_mid-term/src/app/evaluation/src/evaluation_algorithm.cpp:30:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<SLanePoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.366s]    30 |                     [01;35m[Ki_point < ref_csv_lane.m_vecLanes[i_lane].m_vecLanePoint.size()[m[K;
+[3.366s]       |                     [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.370s] [01m[K/home/seok/automotive_software_mid-term/src/app/evaluation/src/evaluation_algorithm.cpp:[m[K In member function ‘[01m[Kbool EvaluationAlgorithm::CheckCollision(const interface::VehicleState&, const std::vector<interface::ObstacleState>&)[m[K’:
+[3.370s] [01m[K/home/seok/automotive_software_mid-term/src/app/evaluation/src/evaluation_algorithm.cpp:85:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<interface::ObstacleState>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.370s]    85 |     for (int i=0; [01;35m[Ki<obstacles.size()[m[K; i++) {
+[3.370s]       |                   [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+[3.370s] [01m[K/home/seok/automotive_software_mid-term/src/app/evaluation/src/evaluation_algorithm.cpp:92:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<interface::Point2D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.370s]    92 |         for(int j=0; [01;35m[Kj<ego_circles.size()[m[K; j++) {
+[3.370s]       |                      [01;35m[K~^~~~~~~~~~~~~~~~~~~[m[K
+[3.371s] [01m[K/home/seok/automotive_software_mid-term/src/app/evaluation/src/evaluation_algorithm.cpp:106:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<interface::Point2D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.371s]   106 |         for(int j=0; [01;35m[Kj<ego_circles.size()[m[K; j++) {
+[3.371s]       |                      [01;35m[K~^~~~~~~~~~~~~~~~~~~[m[K
+[3.371s] [01m[K/home/seok/automotive_software_mid-term/src/app/evaluation/src/evaluation_algorithm.cpp:120:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<interface::Point2D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.371s]   120 |         for(int j=0; [01;35m[Kj<ego_circles.size()[m[K; j++) {
+[3.371s]       |                      [01;35m[K~^~~~~~~~~~~~~~~~~~~[m[K
+[3.371s] [01m[K/home/seok/automotive_software_mid-term/src/app/evaluation/src/evaluation_algorithm.cpp:[m[K In member function ‘[01m[Kvoid EvaluationAlgorithm::CalcCrossTrackError(const interface::VehicleState&, const double&)[m[K’:
+[3.371s] [01m[K/home/seok/automotive_software_mid-term/src/app/evaluation/src/evaluation_algorithm.cpp:139:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<interface::Point2D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.371s]   139 |     for (auto i = 0; [01;35m[Ki < o_ref_lane_.point.size()[m[K; i++) {
+[3.371s]       |                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.490s] [01m[K/home/seok/automotive_software_mid-term/src/app/evaluation/src/evaluation_node.cpp:[m[K In member function ‘[01m[Kvoid Evaluation::Run(const rclcpp::Time&)[m[K’:
+[5.491s] [01m[K/home/seok/automotive_software_mid-term/src/app/evaluation/src/evaluation_node.cpp:110:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ad_msgs::msg::VehicleOutput_<std::allocator<void> >, std::allocator<ad_msgs::msg::VehicleOutput_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.491s]   110 |     for(int i=0; [01;35m[Ki<obstacles_msg.obstacles.size()[m[K; i++) {
+[5.491s]       |                  [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.491s] [01m[K/home/seok/automotive_software_mid-term/src/app/evaluation/src/evaluation_node.cpp:[m[K In member function ‘[01m[Kvoid Evaluation::Publish(const rclcpp::Time&)[m[K’:
+[5.492s] [01m[K/home/seok/automotive_software_mid-term/src/app/evaluation/src/evaluation_node.cpp:181:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.492s]   181 | void Evaluation::Publish([01;35m[Kconst rclcpp::Time& current_time[m[K) {
+[5.492s]       |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[15.166s] [100%] [32m[1mLinking CXX executable evaluation[0m
+[15.730s] [100%] Built target evaluation
+[15.740s] Invoked command in '/home/seok/automotive_software_mid-term/build/evaluation' returned '0': AMENT_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:/home/seok/ros2_ws/install/simulator:/home/seok/ros2_ws/install/evaluation:/home/seok/ros2_ws/install/autonomous_driving:/home/seok/ros2_ws/install/ad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/seok/automotive_software_mid-term/install/ad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/seok/automotive_software_mid-term/build/evaluation -- -j16 -l16
+[15.756s] Invoking command in '/home/seok/automotive_software_mid-term/build/evaluation': AMENT_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:/home/seok/ros2_ws/install/simulator:/home/seok/ros2_ws/install/evaluation:/home/seok/ros2_ws/install/autonomous_driving:/home/seok/ros2_ws/install/ad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/seok/automotive_software_mid-term/install/ad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/seok/automotive_software_mid-term/build/evaluation
+[15.760s] -- Install configuration: ""
+[15.761s] -- Installing: /home/seok/automotive_software_mid-term/install/evaluation/lib/evaluation/evaluation
+[15.765s] -- Set runtime path of "/home/seok/automotive_software_mid-term/install/evaluation/lib/evaluation/evaluation" to ""
+[15.765s] -- Installing: /home/seok/automotive_software_mid-term/install/evaluation/share/evaluation/launch
+[15.766s] -- Installing: /home/seok/automotive_software_mid-term/install/evaluation/share/evaluation/launch/evaluation.launch.xml
+[15.767s] -- Installing: /home/seok/automotive_software_mid-term/install/evaluation/share/ament_index/resource_index/package_run_dependencies/evaluation
+[15.768s] -- Installing: /home/seok/automotive_software_mid-term/install/evaluation/share/ament_index/resource_index/parent_prefix_path/evaluation
+[15.768s] -- Installing: /home/seok/automotive_software_mid-term/install/evaluation/share/evaluation/environment/ament_prefix_path.sh
+[15.768s] -- Installing: /home/seok/automotive_software_mid-term/install/evaluation/share/evaluation/environment/ament_prefix_path.dsv
+[15.768s] -- Installing: /home/seok/automotive_software_mid-term/install/evaluation/share/evaluation/environment/path.sh
+[15.768s] -- Installing: /home/seok/automotive_software_mid-term/install/evaluation/share/evaluation/environment/path.dsv
+[15.768s] -- Installing: /home/seok/automotive_software_mid-term/install/evaluation/share/evaluation/local_setup.bash
+[15.769s] -- Installing: /home/seok/automotive_software_mid-term/install/evaluation/share/evaluation/local_setup.sh
+[15.769s] -- Installing: /home/seok/automotive_software_mid-term/install/evaluation/share/evaluation/local_setup.zsh
+[15.770s] -- Installing: /home/seok/automotive_software_mid-term/install/evaluation/share/evaluation/local_setup.dsv
+[15.770s] -- Installing: /home/seok/automotive_software_mid-term/install/evaluation/share/evaluation/package.dsv
+[15.770s] -- Installing: /home/seok/automotive_software_mid-term/install/evaluation/share/ament_index/resource_index/packages/evaluation
+[15.770s] -- Installing: /home/seok/automotive_software_mid-term/install/evaluation/share/evaluation/cmake/evaluationConfig.cmake
+[15.771s] -- Installing: /home/seok/automotive_software_mid-term/install/evaluation/share/evaluation/cmake/evaluationConfig-version.cmake
+[15.771s] -- Installing: /home/seok/automotive_software_mid-term/install/evaluation/share/evaluation/package.xml
+[15.773s] Invoked command in '/home/seok/automotive_software_mid-term/build/evaluation' returned '0': AMENT_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:/home/seok/ros2_ws/install/simulator:/home/seok/ros2_ws/install/evaluation:/home/seok/ros2_ws/install/autonomous_driving:/home/seok/ros2_ws/install/ad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/seok/automotive_software_mid-term/install/ad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/seok/automotive_software_mid-term/build/evaluation
