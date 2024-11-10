@@ -1,0 +1,28 @@
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::Init(const rclcpp::Time&)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:141:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  141 | void AutonomousDriving::Init([01;35m[Kconst rclcpp::Time &current_time[m[K) {
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K At global scope:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:466:8:[m[K [01;31m[Kerror: [m[K‘[01m[KAutonomous[m[K’ has not been declared
+  466 | double [01;31m[KAutonomous[m[K::getDistanceToVehicle(const ad_msgs::msg::VehicleOutput& vehicle_state, const ad_msgs::msg::VehicleOutput& obstacle) {
+      |        [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::Run(const rclcpp::Time&)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:508:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Obstacles = struct ad_msgs::msg::Obstacles_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct ad_msgs::msg::Obstacles_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kbegin[m[K’
+  508 |     std::sort(obstacles.[01;31m[Kbegin[m[K(), obstacles.end(), [](const ad_msgs::msg::VehicleOutput& a, const ad_msgs::msg::VehicleOutput& b) {
+      |                         [01;31m[K^~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:508:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Obstacles = struct ad_msgs::msg::Obstacles_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct ad_msgs::msg::Obstacles_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kend[m[K’
+  508 |     std::sort(obstacles.begin(), obstacles.[01;31m[Kend[m[K(), [](const ad_msgs::msg::VehicleOutput& a, const ad_msgs::msg::VehicleOutput& b) {
+      |                                            [01;31m[K^~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:511:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Obstacles = struct ad_msgs::msg::Obstacles_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct ad_msgs::msg::Obstacles_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksize[m[K’
+  511 |     ad_msgs::msg::VehicleOutput middle_obstacle = obstacles[obstacles.[01;31m[Ksize[m[K() / 2];
+      |                                                                       [01;31m[K^~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:495:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klimit_speed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  495 |     double [01;35m[Klimit_speed[m[K = i_limit_speed_;
+      |            [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::Publish(const rclcpp::Time&)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:610:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  610 | void AutonomousDriving::Publish([01;35m[Kconst rclcpp::Time &current_time[m[K) {
+      |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/autonomous_driving.dir/build.make:76: CMakeFiles/autonomous_driving.dir/src/autonomous_driving.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/autonomous_driving.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,102 @@
+[0.029s] Invoking command in '/home/seok/automotive_software_mid-term/build/simulator': AMENT_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:/home/seok/ros2_ws/install/simulator:/home/seok/ros2_ws/install/evaluation:/home/seok/ros2_ws/install/autonomous_driving:/home/seok/ros2_ws/install/ad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/seok/automotive_software_mid-term/install/ad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/seok/automotive_software_mid-term/src/app/simulator -DCMAKE_INSTALL_PREFIX=/home/seok/automotive_software_mid-term/install/simulator
+[0.072s] -- The C compiler identification is GNU 11.4.0
+[0.212s] -- The CXX compiler identification is GNU 11.4.0
+[0.284s] -- Detecting C compiler ABI info
+[0.345s] -- Detecting C compiler ABI info - done
+[0.352s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.352s] -- Detecting C compile features
+[0.353s] -- Detecting C compile features - done
+[0.356s] -- Detecting CXX compiler ABI info
+[0.423s] -- Detecting CXX compiler ABI info - done
+[0.428s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.428s] -- Detecting CXX compile features
+[0.429s] -- Detecting CXX compile features - done
+[0.430s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.544s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.607s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.668s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.671s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.676s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.697s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.707s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.740s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.743s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.004s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.339s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.831s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.836s] -- Looking for pthread.h
+[1.887s] -- Looking for pthread.h - found
+[1.887s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.941s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.941s] -- Found Threads: TRUE  
+[1.976s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.013s] -- Found ad_msgs: 0.0.0 (/home/seok/automotive_software_mid-term/install/ad_msgs/share/ad_msgs/cmake)
+[2.045s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[2.050s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.118s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem 
+[2.167s] -- Configuring done
+[2.185s] -- Generating done
+[2.186s] -- Build files have been written to: /home/seok/automotive_software_mid-term/build/simulator
+[2.193s] Invoked command in '/home/seok/automotive_software_mid-term/build/simulator' returned '0': AMENT_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:/home/seok/ros2_ws/install/simulator:/home/seok/ros2_ws/install/evaluation:/home/seok/ros2_ws/install/autonomous_driving:/home/seok/ros2_ws/install/ad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/seok/automotive_software_mid-term/install/ad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/seok/automotive_software_mid-term/src/app/simulator -DCMAKE_INSTALL_PREFIX=/home/seok/automotive_software_mid-term/install/simulator
+[2.195s] Invoking command in '/home/seok/automotive_software_mid-term/build/simulator': AMENT_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:/home/seok/ros2_ws/install/simulator:/home/seok/ros2_ws/install/evaluation:/home/seok/ros2_ws/install/autonomous_driving:/home/seok/ros2_ws/install/ad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/seok/automotive_software_mid-term/install/ad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/seok/automotive_software_mid-term/build/simulator -- -j16 -l16
+[2.231s] [ 12%] [32mBuilding CXX object CMakeFiles/display.dir/src/display/display_node.cpp.o[0m
+[2.232s] [ 25%] [32mBuilding CXX object CMakeFiles/lane_detection.dir/src/lane_detection/lane_detection_algorithm.cpp.o[0m
+[2.233s] [ 37%] [32mBuilding CXX object CMakeFiles/lane_detection.dir/src/lane_detection/lane_detection_node.cpp.o[0m
+[2.234s] [ 50%] [32mBuilding CXX object CMakeFiles/lane_detection.dir/home/seok/automotive_software_mid-term/src/bsw/system/interface/interface_lane.cpp.o[0m
+[2.235s] [ 62%] [32mBuilding CXX object CMakeFiles/vehicle.dir/src/vehicle/vehicle_simulator_node.cpp.o[0m
+[3.210s] [01m[K/home/seok/automotive_software_mid-term/src/bsw/system/interface/interface_lane.cpp:[m[K In member function ‘[01m[Kbool SLanes::ImportLaneCsvFile(std::string)[m[K’:
+[3.210s] [01m[K/home/seok/automotive_software_mid-term/src/bsw/system/interface/interface_lane.cpp:26:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KnLaneID[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.210s]    26 |     int [01;35m[KnLaneID[m[K = 0;
+[3.210s]       |         [01;35m[K^~~~~~~[m[K
+[3.404s] [01m[K/home/seok/automotive_software_mid-term/src/app/simulator/src/lane_detection/lane_detection_algorithm.cpp:[m[K In member function ‘[01m[Kinterface::Lanes LaneDetectionAlgorithm::LoadLanesData()[m[K’:
+[3.405s] [01m[K/home/seok/automotive_software_mid-term/src/app/simulator/src/lane_detection/lane_detection_algorithm.cpp:36:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<SLane>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.405s]    36 |     for (auto i_lane = 0; [01;35m[Ki_lane < ref_csv_lane.m_vecLanes.size()[m[K; i_lane++) {
+[3.405s]       |                           [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.407s] [01m[K/home/seok/automotive_software_mid-term/src/app/simulator/src/lane_detection/lane_detection_algorithm.cpp:41:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<SLanePoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.407s]    41 |         for (auto i_point = 0; [01;35m[Ki_point < ref_csv_lane.m_vecLanes[i_lane].m_vecLanePoint.size()[m[K; i_point++) {
+[3.407s]       |                                [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.220s] [01m[K/home/seok/automotive_software_mid-term/src/app/simulator/src/vehicle/vehicle_simulator_node.cpp:[m[K In member function ‘[01m[Kvoid Vehicle::Publish(const rclcpp::Time&)[m[K’:
+[5.221s] [01m[K/home/seok/automotive_software_mid-term/src/app/simulator/src/vehicle/vehicle_simulator_node.cpp:116:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.221s]   116 | void Vehicle::Publish([01;35m[Kconst rclcpp::Time& current_time[m[K) {
+[5.221s]       |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[5.379s] [01m[K/home/seok/automotive_software_mid-term/src/app/simulator/src/display/display_node.cpp:[m[K In member function ‘[01m[Kvoid Display::Init(const rclcpp::Time&)[m[K’:
+[5.379s] [01m[K/home/seok/automotive_software_mid-term/src/app/simulator/src/display/display_node.cpp:88:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.379s]    88 | void Display::Init([01;35m[Kconst rclcpp::Time& current_time[m[K) {
+[5.379s]       |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[6.129s] [01m[K/home/seok/automotive_software_mid-term/src/app/simulator/src/lane_detection/lane_detection_node.cpp:[m[K In member function ‘[01m[Kvoid LaneDetection::Init(const rclcpp::Time&)[m[K’:
+[6.129s] [01m[K/home/seok/automotive_software_mid-term/src/app/simulator/src/lane_detection/lane_detection_node.cpp:91:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.129s]    91 | void LaneDetection::Init([01;35m[Kconst rclcpp::Time& current_time[m[K) {
+[6.129s]       |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[10.930s] [ 75%] [32m[1mLinking CXX executable vehicle[0m
+[11.498s] [ 75%] Built target vehicle
+[12.307s] [ 87%] [32m[1mLinking CXX executable lane_detection[0m
+[12.679s] [ 87%] Built target lane_detection
+[21.682s] [100%] [32m[1mLinking CXX executable display[0m
+[22.520s] [100%] Built target display
+[22.526s] Invoked command in '/home/seok/automotive_software_mid-term/build/simulator' returned '0': AMENT_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:/home/seok/ros2_ws/install/simulator:/home/seok/ros2_ws/install/evaluation:/home/seok/ros2_ws/install/autonomous_driving:/home/seok/ros2_ws/install/ad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/seok/automotive_software_mid-term/install/ad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/seok/automotive_software_mid-term/build/simulator -- -j16 -l16
+[22.542s] Invoking command in '/home/seok/automotive_software_mid-term/build/simulator': AMENT_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:/home/seok/ros2_ws/install/simulator:/home/seok/ros2_ws/install/evaluation:/home/seok/ros2_ws/install/autonomous_driving:/home/seok/ros2_ws/install/ad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/seok/automotive_software_mid-term/install/ad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/seok/automotive_software_mid-term/build/simulator
+[22.545s] -- Install configuration: ""
+[22.546s] -- Installing: /home/seok/automotive_software_mid-term/install/simulator/lib/simulator/vehicle
+[22.548s] -- Set runtime path of "/home/seok/automotive_software_mid-term/install/simulator/lib/simulator/vehicle" to ""
+[22.548s] -- Installing: /home/seok/automotive_software_mid-term/install/simulator/lib/simulator/lane_detection
+[22.550s] -- Set runtime path of "/home/seok/automotive_software_mid-term/install/simulator/lib/simulator/lane_detection" to ""
+[22.550s] -- Installing: /home/seok/automotive_software_mid-term/install/simulator/lib/simulator/display
+[22.559s] -- Set runtime path of "/home/seok/automotive_software_mid-term/install/simulator/lib/simulator/display" to ""
+[22.559s] -- Installing: /home/seok/automotive_software_mid-term/install/simulator/share/simulator/launch
+[22.560s] -- Installing: /home/seok/automotive_software_mid-term/install/simulator/share/simulator/launch/simulation.launch.xml
+[22.560s] -- Installing: /home/seok/automotive_software_mid-term/install/simulator/share/ament_index/resource_index/package_run_dependencies/simulator
+[22.560s] -- Installing: /home/seok/automotive_software_mid-term/install/simulator/share/ament_index/resource_index/parent_prefix_path/simulator
+[22.561s] -- Installing: /home/seok/automotive_software_mid-term/install/simulator/share/simulator/environment/ament_prefix_path.sh
+[22.561s] -- Installing: /home/seok/automotive_software_mid-term/install/simulator/share/simulator/environment/ament_prefix_path.dsv
+[22.561s] -- Installing: /home/seok/automotive_software_mid-term/install/simulator/share/simulator/environment/path.sh
+[22.561s] -- Installing: /home/seok/automotive_software_mid-term/install/simulator/share/simulator/environment/path.dsv
+[22.561s] -- Installing: /home/seok/automotive_software_mid-term/install/simulator/share/simulator/local_setup.bash
+[22.561s] -- Installing: /home/seok/automotive_software_mid-term/install/simulator/share/simulator/local_setup.sh
+[22.561s] -- Installing: /home/seok/automotive_software_mid-term/install/simulator/share/simulator/local_setup.zsh
+[22.561s] -- Installing: /home/seok/automotive_software_mid-term/install/simulator/share/simulator/local_setup.dsv
+[22.561s] -- Installing: /home/seok/automotive_software_mid-term/install/simulator/share/simulator/package.dsv
+[22.561s] -- Installing: /home/seok/automotive_software_mid-term/install/simulator/share/ament_index/resource_index/packages/simulator
+[22.562s] -- Installing: /home/seok/automotive_software_mid-term/install/simulator/share/simulator/cmake/simulatorConfig.cmake
+[22.562s] -- Installing: /home/seok/automotive_software_mid-term/install/simulator/share/simulator/cmake/simulatorConfig-version.cmake
+[22.562s] -- Installing: /home/seok/automotive_software_mid-term/install/simulator/share/simulator/package.xml
+[22.563s] Invoked command in '/home/seok/automotive_software_mid-term/build/simulator' returned '0': AMENT_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:/home/seok/ros2_ws/install/simulator:/home/seok/ros2_ws/install/evaluation:/home/seok/ros2_ws/install/autonomous_driving:/home/seok/ros2_ws/install/ad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/seok/automotive_software_mid-term/install/ad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/seok/automotive_software_mid-term/build/simulator

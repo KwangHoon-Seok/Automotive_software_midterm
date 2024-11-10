@@ -1,0 +1,23 @@
+[01m[K/home/seok/automotive_software_mid-term/src/bsw/system/interface/interface_lane.cpp:[m[K In member function ‘[01m[Kbool SLanes::ImportLaneCsvFile(std::string)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/bsw/system/interface/interface_lane.cpp:26:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KnLaneID[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   26 |     int [01;35m[KnLaneID[m[K = 0;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/simulator/src/lane_detection/lane_detection_algorithm.cpp:[m[K In member function ‘[01m[Kinterface::Lanes LaneDetectionAlgorithm::LoadLanesData()[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/simulator/src/lane_detection/lane_detection_algorithm.cpp:36:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<SLane>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   36 |     for (auto i_lane = 0; [01;35m[Ki_lane < ref_csv_lane.m_vecLanes.size()[m[K; i_lane++) {
+      |                           [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/simulator/src/lane_detection/lane_detection_algorithm.cpp:41:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<SLanePoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   41 |         for (auto i_point = 0; [01;35m[Ki_point < ref_csv_lane.m_vecLanes[i_lane].m_vecLanePoint.size()[m[K; i_point++) {
+      |                                [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/simulator/src/vehicle/vehicle_simulator_node.cpp:[m[K In member function ‘[01m[Kvoid Vehicle::Publish(const rclcpp::Time&)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/simulator/src/vehicle/vehicle_simulator_node.cpp:116:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  116 | void Vehicle::Publish([01;35m[Kconst rclcpp::Time& current_time[m[K) {
+      |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/simulator/src/display/display_node.cpp:[m[K In member function ‘[01m[Kvoid Display::Init(const rclcpp::Time&)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/simulator/src/display/display_node.cpp:88:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   88 | void Display::Init([01;35m[Kconst rclcpp::Time& current_time[m[K) {
+      |                    [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/simulator/src/lane_detection/lane_detection_node.cpp:[m[K In member function ‘[01m[Kvoid LaneDetection::Init(const rclcpp::Time&)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/simulator/src/lane_detection/lane_detection_node.cpp:91:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   91 | void LaneDetection::Init([01;35m[Kconst rclcpp::Time& current_time[m[K) {
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K

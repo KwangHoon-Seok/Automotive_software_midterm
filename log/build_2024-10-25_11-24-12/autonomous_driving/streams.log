@@ -1,0 +1,42 @@
+[0.030s] Invoking command in '/home/seok/automotive_software_mid-term/build/autonomous_driving': AMENT_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:/home/seok/ros2_ws/install/simulator:/home/seok/ros2_ws/install/evaluation:/home/seok/ros2_ws/install/autonomous_driving:/home/seok/ros2_ws/install/ad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/seok/automotive_software_mid-term/install/ad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/seok/automotive_software_mid-term/build/autonomous_driving -- -j16 -l16
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target autonomous_driving[0m
+[0.067s] [ 50%] [32mBuilding CXX object CMakeFiles/autonomous_driving.dir/src/autonomous_driving.cpp.o[0m
+[2.158s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::Init(const rclcpp::Time&)[m[K’:
+[2.158s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:131:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.158s]   131 | void AutonomousDriving::Init([01;35m[Kconst rclcpp::Time &current_time[m[K) {
+[2.158s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[2.158s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::Run(const rclcpp::Time&)[m[K’:
+[2.158s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:152:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klimit_speed[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.158s]   152 |     double [01;35m[Klimit_speed[m[K = i_limit_speed_;
+[2.158s]       |            [01;35m[K^~~~~~~~~~~[m[K
+[2.159s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:[m[K In member function ‘[01m[Kvoid AutonomousDriving::Publish(const rclcpp::Time&)[m[K’:
+[2.159s] [01m[K/home/seok/automotive_software_mid-term/src/app/autonomous_driving/src/autonomous_driving.cpp:216:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.159s]   216 | void AutonomousDriving::Publish([01;35m[Kconst rclcpp::Time &current_time[m[K) {
+[2.159s]       |                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[12.228s] [100%] [32m[1mLinking CXX executable autonomous_driving[0m
+[12.863s] [100%] Built target autonomous_driving
+[12.869s] Invoked command in '/home/seok/automotive_software_mid-term/build/autonomous_driving' returned '0': AMENT_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:/home/seok/ros2_ws/install/simulator:/home/seok/ros2_ws/install/evaluation:/home/seok/ros2_ws/install/autonomous_driving:/home/seok/ros2_ws/install/ad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/seok/automotive_software_mid-term/install/ad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/seok/automotive_software_mid-term/build/autonomous_driving -- -j16 -l16
+[12.881s] Invoking command in '/home/seok/automotive_software_mid-term/build/autonomous_driving': AMENT_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:/home/seok/ros2_ws/install/simulator:/home/seok/ros2_ws/install/evaluation:/home/seok/ros2_ws/install/autonomous_driving:/home/seok/ros2_ws/install/ad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/seok/automotive_software_mid-term/install/ad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/seok/automotive_software_mid-term/build/autonomous_driving
+[12.884s] -- Install configuration: ""
+[12.884s] -- Installing: /home/seok/automotive_software_mid-term/install/autonomous_driving/lib/autonomous_driving/autonomous_driving
+[12.890s] -- Set runtime path of "/home/seok/automotive_software_mid-term/install/autonomous_driving/lib/autonomous_driving/autonomous_driving" to ""
+[12.891s] -- Up-to-date: /home/seok/automotive_software_mid-term/install/autonomous_driving/share/autonomous_driving/launch
+[12.891s] -- Up-to-date: /home/seok/automotive_software_mid-term/install/autonomous_driving/share/autonomous_driving/launch/manual_driving.launch.xml
+[12.891s] -- Up-to-date: /home/seok/automotive_software_mid-term/install/autonomous_driving/share/autonomous_driving/launch/autonomous_driving.launch.xml
+[12.891s] -- Up-to-date: /home/seok/automotive_software_mid-term/install/autonomous_driving/lib/autonomous_driving/simultaneous_inputs.py
+[12.891s] -- Up-to-date: /home/seok/automotive_software_mid-term/install/autonomous_driving/share/ament_index/resource_index/package_run_dependencies/autonomous_driving
+[12.891s] -- Up-to-date: /home/seok/automotive_software_mid-term/install/autonomous_driving/share/ament_index/resource_index/parent_prefix_path/autonomous_driving
+[12.891s] -- Up-to-date: /home/seok/automotive_software_mid-term/install/autonomous_driving/share/autonomous_driving/environment/ament_prefix_path.sh
+[12.891s] -- Up-to-date: /home/seok/automotive_software_mid-term/install/autonomous_driving/share/autonomous_driving/environment/ament_prefix_path.dsv
+[12.891s] -- Up-to-date: /home/seok/automotive_software_mid-term/install/autonomous_driving/share/autonomous_driving/environment/path.sh
+[12.891s] -- Up-to-date: /home/seok/automotive_software_mid-term/install/autonomous_driving/share/autonomous_driving/environment/path.dsv
+[12.891s] -- Up-to-date: /home/seok/automotive_software_mid-term/install/autonomous_driving/share/autonomous_driving/local_setup.bash
+[12.891s] -- Up-to-date: /home/seok/automotive_software_mid-term/install/autonomous_driving/share/autonomous_driving/local_setup.sh
+[12.892s] -- Up-to-date: /home/seok/automotive_software_mid-term/install/autonomous_driving/share/autonomous_driving/local_setup.zsh
+[12.892s] -- Up-to-date: /home/seok/automotive_software_mid-term/install/autonomous_driving/share/autonomous_driving/local_setup.dsv
+[12.892s] -- Installing: /home/seok/automotive_software_mid-term/install/autonomous_driving/share/autonomous_driving/package.dsv
+[12.892s] -- Up-to-date: /home/seok/automotive_software_mid-term/install/autonomous_driving/share/ament_index/resource_index/packages/autonomous_driving
+[12.892s] -- Up-to-date: /home/seok/automotive_software_mid-term/install/autonomous_driving/share/autonomous_driving/cmake/autonomous_drivingConfig.cmake
+[12.892s] -- Up-to-date: /home/seok/automotive_software_mid-term/install/autonomous_driving/share/autonomous_driving/cmake/autonomous_drivingConfig-version.cmake
+[12.892s] -- Up-to-date: /home/seok/automotive_software_mid-term/install/autonomous_driving/share/autonomous_driving/package.xml
+[12.893s] Invoked command in '/home/seok/automotive_software_mid-term/build/autonomous_driving' returned '0': AMENT_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs:/home/seok/ros2_ws/install/simulator:/home/seok/ros2_ws/install/evaluation:/home/seok/ros2_ws/install/autonomous_driving:/home/seok/ros2_ws/install/ad_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/seok/automotive_software_mid-term/install/ad_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/seok/automotive_software_mid-term/install/ad_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/seok/automotive_software_mid-term/build/autonomous_driving

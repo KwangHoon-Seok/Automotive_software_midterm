@@ -1,0 +1,82 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found ad_msgs: 0.0.0 (/home/seok/automotive_software_mid-term/install/ad_msgs/share/ad_msgs/cmake)
+-- Found rviz_2d_overlay_msgs: 1.3.0 (/opt/ros/humble/share/rviz_2d_overlay_msgs/cmake)
+-- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/seok/automotive_software_mid-term/build/scenario_runner
+[ 25%] [32mBuilding CXX object CMakeFiles/scenario_runner.dir/home/seok/automotive_software_mid-term/src/bsw/system/interface/interface_lane.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/scenario_runner.dir/src/scenario_runner_node.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/scenario_runner.dir/src/scenario_algorithm.cpp.o[0m
+[01m[K/home/seok/automotive_software_mid-term/src/bsw/system/interface/interface_lane.cpp:[m[K In member function ‘[01m[Kbool SLanes::ImportLaneCsvFile(std::string)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/bsw/system/interface/interface_lane.cpp:26:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KnLaneID[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   26 |     int [01;35m[KnLaneID[m[K = 0;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/scenario_runner/src/scenario_algorithm.cpp:[m[K In member function ‘[01m[Kvoid ScenarioAlgorithm::GenerateObstacles()[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/scenario_runner/src/scenario_algorithm.cpp:79:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<interface::RefLanePoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   79 |         for (int j=0; [01;35m[Kj<obstacle_ref_lanes_.lanes[i].points.size()[m[K; j++) {
+      |                       [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/scenario_runner/src/scenario_algorithm.cpp:[m[K In member function ‘[01m[Kvoid ScenarioAlgorithm::UpdateObstacleState(double)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/scenario_runner/src/scenario_algorithm.cpp:148:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<interface::ObstacleState>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  148 |         for (int i=0; [01;35m[Ki<obstacle_states_.size()[m[K; i++) {
+      |                       [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/scenario_runner/src/scenario_algorithm.cpp:151:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::pair<double, double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  151 |             for(int k=0; [01;35m[Kk<object_target_speed_.size()[m[K; k++) {
+      |                          [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable scenario_runner[0m
+[100%] Built target scenario_runner
+-- Install configuration: ""
+-- Installing: /home/seok/automotive_software_mid-term/install/scenario_runner/lib/scenario_runner/scenario_runner
+-- Set runtime path of "/home/seok/automotive_software_mid-term/install/scenario_runner/lib/scenario_runner/scenario_runner" to ""
+-- Installing: /home/seok/automotive_software_mid-term/install/scenario_runner/share/scenario_runner/launch
+-- Installing: /home/seok/automotive_software_mid-term/install/scenario_runner/share/scenario_runner/launch/scenario_runner.launch.xml
+-- Installing: /home/seok/automotive_software_mid-term/install/scenario_runner/share/ament_index/resource_index/package_run_dependencies/scenario_runner
+-- Installing: /home/seok/automotive_software_mid-term/install/scenario_runner/share/ament_index/resource_index/parent_prefix_path/scenario_runner
+-- Installing: /home/seok/automotive_software_mid-term/install/scenario_runner/share/scenario_runner/environment/ament_prefix_path.sh
+-- Installing: /home/seok/automotive_software_mid-term/install/scenario_runner/share/scenario_runner/environment/ament_prefix_path.dsv
+-- Installing: /home/seok/automotive_software_mid-term/install/scenario_runner/share/scenario_runner/environment/path.sh
+-- Installing: /home/seok/automotive_software_mid-term/install/scenario_runner/share/scenario_runner/environment/path.dsv
+-- Installing: /home/seok/automotive_software_mid-term/install/scenario_runner/share/scenario_runner/local_setup.bash
+-- Installing: /home/seok/automotive_software_mid-term/install/scenario_runner/share/scenario_runner/local_setup.sh
+-- Installing: /home/seok/automotive_software_mid-term/install/scenario_runner/share/scenario_runner/local_setup.zsh
+-- Installing: /home/seok/automotive_software_mid-term/install/scenario_runner/share/scenario_runner/local_setup.dsv
+-- Installing: /home/seok/automotive_software_mid-term/install/scenario_runner/share/scenario_runner/package.dsv
+-- Installing: /home/seok/automotive_software_mid-term/install/scenario_runner/share/ament_index/resource_index/packages/scenario_runner
+-- Installing: /home/seok/automotive_software_mid-term/install/scenario_runner/share/scenario_runner/cmake/scenario_runnerConfig.cmake
+-- Installing: /home/seok/automotive_software_mid-term/install/scenario_runner/share/scenario_runner/cmake/scenario_runnerConfig-version.cmake
+-- Installing: /home/seok/automotive_software_mid-term/install/scenario_runner/share/scenario_runner/package.xml

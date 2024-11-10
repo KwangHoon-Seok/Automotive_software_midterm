@@ -1,0 +1,36 @@
+[01m[K/home/seok/automotive_software_mid-term/src/bsw/system/interface/interface_lane.cpp:[m[K In member function ‘[01m[Kbool SLanes::ImportLaneCsvFile(std::string)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/bsw/system/interface/interface_lane.cpp:26:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KnLaneID[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   26 |     int [01;35m[KnLaneID[m[K = 0;
+      |         [01;35m[K^~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/evaluation/src/evaluation_algorithm.cpp:[m[K In member function ‘[01m[Kvoid EvaluationAlgorithm::LoadLaneData()[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/evaluation/src/evaluation_algorithm.cpp:27:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<SLane>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   27 |     for (auto i_lane = 0; [01;35m[Ki_lane < ref_csv_lane.m_vecLanes.size()[m[K; i_lane++) {
+      |                           [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/evaluation/src/evaluation_algorithm.cpp:30:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<SLanePoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   30 |                     [01;35m[Ki_point < ref_csv_lane.m_vecLanes[i_lane].m_vecLanePoint.size()[m[K;
+      |                     [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/evaluation/src/evaluation_algorithm.cpp:[m[K In member function ‘[01m[Kbool EvaluationAlgorithm::CheckCollision(const interface::VehicleState&, const std::vector<interface::ObstacleState>&)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/evaluation/src/evaluation_algorithm.cpp:85:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<interface::ObstacleState>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   85 |     for (int i=0; [01;35m[Ki<obstacles.size()[m[K; i++) {
+      |                   [01;35m[K~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/evaluation/src/evaluation_algorithm.cpp:92:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<interface::Point2D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   92 |         for(int j=0; [01;35m[Kj<ego_circles.size()[m[K; j++) {
+      |                      [01;35m[K~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/evaluation/src/evaluation_algorithm.cpp:106:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<interface::Point2D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  106 |         for(int j=0; [01;35m[Kj<ego_circles.size()[m[K; j++) {
+      |                      [01;35m[K~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/evaluation/src/evaluation_algorithm.cpp:120:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<interface::Point2D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  120 |         for(int j=0; [01;35m[Kj<ego_circles.size()[m[K; j++) {
+      |                      [01;35m[K~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/evaluation/src/evaluation_algorithm.cpp:[m[K In member function ‘[01m[Kvoid EvaluationAlgorithm::CalcCrossTrackError(const interface::VehicleState&, const double&)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/evaluation/src/evaluation_algorithm.cpp:139:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<interface::Point2D>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  139 |     for (auto i = 0; [01;35m[Ki < o_ref_lane_.point.size()[m[K; i++) {
+      |                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/evaluation/src/evaluation_node.cpp:[m[K In member function ‘[01m[Kvoid Evaluation::Run(const rclcpp::Time&)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/evaluation/src/evaluation_node.cpp:110:19:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ad_msgs::msg::VehicleOutput_<std::allocator<void> >, std::allocator<ad_msgs::msg::VehicleOutput_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  110 |     for(int i=0; [01;35m[Ki<obstacles_msg.obstacles.size()[m[K; i++) {
+      |                  [01;35m[K~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/seok/automotive_software_mid-term/src/app/evaluation/src/evaluation_node.cpp:[m[K In member function ‘[01m[Kvoid Evaluation::Publish(const rclcpp::Time&)[m[K’:
+[01m[K/home/seok/automotive_software_mid-term/src/app/evaluation/src/evaluation_node.cpp:181:46:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent_time[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  181 | void Evaluation::Publish([01;35m[Kconst rclcpp::Time& current_time[m[K) {
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
